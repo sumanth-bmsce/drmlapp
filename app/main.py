@@ -143,5 +143,5 @@ def navigate():
         return render_template("display.html", variable = predict_list)
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(host="10.130.29.98",port=8080,debug=True)
 
